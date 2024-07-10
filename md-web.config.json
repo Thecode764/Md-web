@@ -1,0 +1,16 @@
+{
+    "website_title": "Welcome to md web",
+    "website_description": "Markdown but runs on browser and with some new features",
+
+    "normal_navbar": "true",
+    "navbar_title": "Md web",
+
+    "navbar_item_1": "Home",
+    "navbar_item_1_redirect": "/",
+
+    "navbar_item_2": "Github",
+    "navbar_item_2_redirect": "https://github.com/Thecode764/Md-web",
+
+    "navbar_item_3": "Follow me",
+    "navbar_item_3_redirect": "https://github.com/Thecode764"
+}
