@@ -2,7 +2,7 @@
     "website_title": "Welcome to md web",
     "website_description": "Markdown but runs on browser and with some new features",
 
-    "normal_navbar": "true",
+    "normal_navbar": "false",
     "navbar_title": "Md web",
 
     "navbar_item_1": "Home",
