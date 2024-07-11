@@ -33,8 +33,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vidstack/react':
-        specifier: ^1.11.26
-        version: 1.11.27(@types/react@18.3.3)(react@18.3.1)
+        specifier: ^1.11.28
+        version: 1.11.28(@types/react@18.3.3)(react@18.3.1)
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
@@ -1331,8 +1331,8 @@ packages:
     resolution: {integrity: sha512-c6EIQRHhcpl6+tO8EMR+kjkkV+ugUNXOmeASA1rlzkd8EPIriavpWoiEz1HR/VLhbVIdhqnV6E7JZm00cBDx2A==}
     engines: {node: ^16.0.0 || >=18.0.0}
 
-  '@vidstack/react@1.11.27':
-    resolution: {integrity: sha512-jJWGu1v12WK+ymLXNtQHD16vGclYXa5iJ/KNkX2XaPiRz5pGHXzxVbD4YJhDYORN/VXV4pWvfkuUL5LHZvLhFw==}
+  '@vidstack/react@1.11.28':
+    resolution: {integrity: sha512-4YQ2UITV2oTjnCPfBK4kbjqokbInKc0Bq75ACIVtg3DgvTcL76UzSfX+6KsgVYJVUJUpqESc1wNGjpQq+quBXQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
@@ -4658,7 +4658,7 @@ snapshots:
       '@typescript-eslint/types': 7.2.0
       eslint-visitor-keys: 3.4.3
 
-  '@vidstack/react@1.11.27(@types/react@18.3.3)(react@18.3.1)':
+  '@vidstack/react@1.11.28(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
       '@floating-ui/dom': 1.6.7
       '@types/react': 18.3.3
