@@ -33,8 +33,8 @@ importers:
         specifier: ^3.1.1
         version: 3.1.1(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vidstack/react':
-        specifier: ^1.11.29
-        version: 1.11.29(@types/react@18.3.3)(react@18.3.1)
+        specifier: ^1.12.8
+        version: 1.12.8(@types/react@18.3.3)(react@18.3.1)
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
@@ -278,6 +278,9 @@ packages:
   '@floating-ui/core@1.6.4':
     resolution: {integrity: sha512-a4IowK4QkXl4SCWTGUR0INAfEOX3wtsYw3rKK5InQEHMGObkR8Xk44qYQD9P4r6HHw0iIfK6GUKECmY8sTkqRA==}
 
+  '@floating-ui/dom@1.6.10':
+    resolution: {integrity: sha512-fskgCFv8J8OamCmyun8MfjB1Olfn+uZKjOKZ0vhYF3gRmEUXcGOjxWL8bBr7i4kIuPZ2KD2S3EUIOxnjC8kl2A==}
+
   '@floating-ui/dom@1.6.7':
     resolution: {integrity: sha512-wmVfPG5o2xnKDU4jx/m4w5qva9FWHcnZ8BvzEe90D/RpwsJaTAVYPEPdQ8sbr/N8zZTAHlZUTQdqg8ZUbzHmng==}
 
@@ -289,6 +292,9 @@ packages:
 
   '@floating-ui/utils@0.2.4':
     resolution: {integrity: sha512-dWO2pw8hhi+WrXq1YJy2yCuWoL20PddgGaqTgVe4cOS9Q6qklXCiA1tJEqX6BEwRNSCP84/afac9hd4MS+zEUA==}
+
+  '@floating-ui/utils@0.2.7':
+    resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
 
   '@fortawesome/fontawesome-common-types@6.6.0':
     resolution: {integrity: sha512-xyX0X9mc0kyz9plIyryrRbl7ngsA9jz77mCZJsUkLl+ZKs0KWObgaEBoSgQiYWAsSmjz/yjl0F++Got0Mdp4Rw==}
@@ -1334,8 +1340,8 @@ packages:
     resolution: {integrity: sha512-c6EIQRHhcpl6+tO8EMR+kjkkV+ugUNXOmeASA1rlzkd8EPIriavpWoiEz1HR/VLhbVIdhqnV6E7JZm00cBDx2A==}
     engines: {node: ^16.0.0 || >=18.0.0}
 
-  '@vidstack/react@1.11.29':
-    resolution: {integrity: sha512-Tn9QW0pNjL4WPhWTVo763RwuivPEHkMl+YTz04btz1Qg1JxUgad0SY9OlAF15iEpcjR18b6y6QsQAFeHpqJXxQ==}
+  '@vidstack/react@1.12.8':
+    resolution: {integrity: sha512-kbn92zeQ/TBOCuk/37V++F19TydFCFqYQzY3zZpGNfX+qIpAwhUI6pzvq8tqn3/k0oXHuqsZ2a5xaAOBaBXfRw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/react': ^18.0.0
@@ -2285,8 +2291,8 @@ packages:
   mdast-util-to-string@3.2.0:
     resolution: {integrity: sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==}
 
-  media-captions@1.0.3:
-    resolution: {integrity: sha512-y2Qi5rqjwgH97zoko1vzu5Q6nnS0KzEQSvd4NOjnFym9JqnFb5VSsUg21RNb5cQ/nhCFJ0wz/XK+2uMwFCr6TQ==}
+  media-captions@1.0.4:
+    resolution: {integrity: sha512-cyDNmuZvvO4H27rcBq2Eudxo9IZRDCOX/I7VEyqbxsEiD2Ei7UYUhG/Sc5fvMZjmathgz3fEK7iAKqvpY+Ux1w==}
     engines: {node: '>=16'}
 
   merge2@1.4.1:
@@ -3559,7 +3565,12 @@ snapshots:
 
   '@floating-ui/core@1.6.4':
     dependencies:
-      '@floating-ui/utils': 0.2.4
+      '@floating-ui/utils': 0.2.7
+
+  '@floating-ui/dom@1.6.10':
+    dependencies:
+      '@floating-ui/core': 1.6.4
+      '@floating-ui/utils': 0.2.7
 
   '@floating-ui/dom@1.6.7':
     dependencies:
@@ -3573,6 +3584,8 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   '@floating-ui/utils@0.2.4': {}
+
+  '@floating-ui/utils@0.2.7': {}
 
   '@fortawesome/fontawesome-common-types@6.6.0': {}
 
@@ -4662,11 +4675,11 @@ snapshots:
       '@typescript-eslint/types': 7.2.0
       eslint-visitor-keys: 3.4.3
 
-  '@vidstack/react@1.11.29(@types/react@18.3.3)(react@18.3.1)':
+  '@vidstack/react@1.12.8(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
-      '@floating-ui/dom': 1.6.7
+      '@floating-ui/dom': 1.6.10
       '@types/react': 18.3.3
-      media-captions: 1.0.3
+      media-captions: 1.0.4
       react: 18.3.1
 
   acorn-jsx@5.3.2(acorn@8.12.1):
@@ -5860,7 +5873,7 @@ snapshots:
     dependencies:
       '@types/mdast': 3.0.15
 
-  media-captions@1.0.3: {}
+  media-captions@1.0.4: {}
 
   merge2@1.4.1: {}
 
