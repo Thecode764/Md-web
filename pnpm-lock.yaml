@@ -48,8 +48,8 @@ importers:
         specifier: ^3.1.4
         version: 3.1.4
       marked:
-        specifier: ^13.0.2
-        version: 13.0.2
+        specifier: ^14.1.0
+        version: 14.1.0
       next:
         specifier: 14.2.5
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2268,8 +2268,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  marked@13.0.2:
-    resolution: {integrity: sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==}
+  marked@14.1.0:
+    resolution: {integrity: sha512-P93GikH/Pde0hM5TAXEd8I4JAYi8IB03n8qzW8Bh1BIEFpEyBoYxi/XWZA53LSpTeLBiMQOoSMj0u5E/tiVYTA==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -5820,7 +5820,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  marked@13.0.2: {}
+  marked@14.1.0: {}
 
   mdast-util-definitions@5.1.2:
     dependencies:
